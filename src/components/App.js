@@ -18,7 +18,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router history={history} basename="/">
+      <Router history={history}>
         <div className={classes}>
           <Navigation {...this.props} />
           <Route exact path="/discover/:type" component={Discover} />
