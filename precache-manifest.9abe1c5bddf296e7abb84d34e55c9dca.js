@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "216eeeed9d9a085695c6a84bfaafa728",
+    "revision": "ea54140b6719859631e9b53ad9db0075",
     "url": "/discover/popular/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/popular/static/css/2.54254009.chunk.css"
   },
   {
-    "revision": "ede2b099b493fa42de9e",
+    "revision": "332c25cfd54c165ffa28",
     "url": "/discover/popular/static/css/main.19ca59fd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/popular/static/js/2.7f909403.chunk.js"
   },
   {
-    "revision": "ede2b099b493fa42de9e",
-    "url": "/discover/popular/static/js/main.cf0f285d.chunk.js"
+    "revision": "332c25cfd54c165ffa28",
+    "url": "/discover/popular/static/js/main.c7cc8e95.chunk.js"
   },
   {
     "revision": "04ec8f0f7b9ccab20f3f",
