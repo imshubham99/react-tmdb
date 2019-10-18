@@ -1,0 +1,50 @@
+.cast {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.cast .slider {
+    position: absolute;
+    width: 98%;
+    margin-left: 12px;
+    padding-left: 2px;
+    display: flex;
+}
+
+.slider div {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.slider div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px;
+    border: 2px solid #00d474;
+    transition: .5s;
+    /* object-fit: cover; */
+    background-position: center;
+}
+
+.slider div img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:1135px) {
+    .cast {
+        width: 95%;
+    }
+}
+
+@media (max-width: 730px) {
+    .cast .slider {
+        margin-bottom: 30px;
+    }
+}

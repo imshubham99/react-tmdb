@@ -1,0 +1,32 @@
+.title {
+  color: #00d47f;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  margin: 10px 0;
+  padding: 0 0 5px;
+}
+
+.active {
+  background: red;
+}
+
+.linkItem {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.linkItem:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  color: #00d47f;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 600;
+}

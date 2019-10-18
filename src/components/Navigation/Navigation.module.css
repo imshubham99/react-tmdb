@@ -1,0 +1,47 @@
+.Navigation {
+  display: flex;
+  background: #283d52;
+  /*283d52*/
+  height: 60px;
+  overflow: hidden;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.Navigation img {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+}
+
+.Navigation form input {
+  border-radius: 50px;
+  width: 15rem;
+  padding: 0 13px 3px;
+  box-sizing: border-box;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Navigation form {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+@media (max-width:800px) {
+  .Navigation img {
+    background: red;
+    display: none;
+  }
+}
+
+@media (max-width:400px) {
+  .Navigation form input {
+    width: 8rem;
+    font-size: 13px;
+  }
+}

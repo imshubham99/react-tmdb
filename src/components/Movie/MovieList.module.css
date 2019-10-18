@@ -1,0 +1,166 @@
+.MovieListContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* align-items: center; */
+}
+
+.MovieList {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(12rem, 15rem)); */
+  grid-gap: 20px;
+  text-decoration: none;
+  justify-content: center;
+  /* border: 5px solid #00d474; */
+}
+
+.title {
+  /* margin-left: 60px; */
+  /* border: 5px solid #00d474; */
+  color: #444141;
+  margin: 20px 0;
+  font-size: 25px;
+  text-shadow: 0 2px 2px gray;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.MovieList .item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.MovieList .imageOverlay {
+  /* background: green; */
+  width: 100%;
+  height: 100%;
+  /* top: -10%; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.MovieList .item img {
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  cursor: pointer;
+  transform: scale(1);
+  z-index: 2;
+}
+
+.MovieList .item p {
+  color: rgb(43, 41, 41);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  width: 90%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.MovieList .item img:hover {
+  transform: scale(0.9);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  border-color: #00d474;
+}
+
+.MovieList .item img:hover~p {
+  font-weight: 500;
+}
+
+@media (max-width: 948px) {
+  .MovieList {
+    width: 95%;
+  }
+  .title {
+    width: 95%;
+  }
+}
+
+@media (max-width: 870px) {
+  body {
+    font-size: 15px;
+  }
+  .MovieList .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .MovieList .item img {
+    width: 90%;
+    height: 320px;
+  }
+  .title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 870px) {
+  .MovieList .item img {
+    width: 80%;
+    height: 340px;
+  }
+}
+
+.goHome {
+  display: inline-block;
+  padding: 5px 19px;
+  margin: 1rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  color: #00d474;
+  border: 1px solid #00d474;
+  transition: .5s;
+  box-shadow: 2px 2px 10px 1px #ddd;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.goHome:hover {
+  background: #00d474;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 4px 4px #01b162;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.goHome:hover i {
+  position: relative;
+  left: -5px;
+}
+
+.goHome a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.goHome a:hover {
+  color: white;
+}
