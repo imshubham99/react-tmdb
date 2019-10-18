@@ -30,8 +30,13 @@ class App extends React.Component {
           <Route exact path="/movie/:movieId" component={Movie} />
           <Route
             exact
-            path="/react-tmdb"
-            render={() => <Redirect from={"/"} to={"/discover/popular"} />}
+            path={process.env.PUBLIC_URL + "/"}
+            render={() => (
+              <Redirect
+                from={process.env.PUBLIC_URL + "/"}
+                to={process.env.PUBLIC_URL + "/discover/popular"}
+              />
+            )}
           />
           <Route
             exact
