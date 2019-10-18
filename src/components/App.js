@@ -37,12 +37,7 @@ class App extends React.Component {
             path="/search/:searchTerm"
             render={props => <Search {...props} />}
           />
-          {/* <Route exact path="/" component={GenresList} /> */}
-          {/* <div style={{ textAlign: "center" }}>
-            Copyright © <a href="#">Shubham</a>
-            <br />
-            <img src={poweredby} width={100} alt="" />
-          </div> */}
+          <Route exact path="/" component={MovieList} />
         </div>
       </Router>
     );
