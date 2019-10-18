@@ -11,14 +11,13 @@ import Navigation from "./Navigation/Navigation";
 import Search from "./Search";
 import classes from "./App.module.css";
 // import poweredby from "../images/poweredby.png";
-
 class App extends React.Component {
   componentDidMount() {
     this.props.init();
   }
   render() {
     return (
-      <Router history={history} basename={process.env.PUBLIC_URL}>
+      <Router history={history} basename="react-tmdb">
         <div className={classes}>
           <Navigation {...this.props} />
           <Route exact path="/discover/:type" component={Discover} />
