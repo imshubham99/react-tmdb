@@ -21,7 +21,7 @@ class Sidebar extends React.Component {
   renderGenres() {
     return this.props.genres.map(genre => (
       <NavLink
-        to={`${process.env.PUBLIC_URL}/genres/${genre.id}`}
+        to={`/genres/${genre.id}`}
         key={genre.id}
         className={classes.linkItem}
         activeStyle={{
@@ -142,7 +142,7 @@ class Sidebar extends React.Component {
           <NavLink
             onClick={() => this.closeMenu()}
             className={classes.linkItem}
-            to={process.env.PUBLIC_URL + "/discover/popular"}
+            to="/discover/popular"
             exact
             activeStyle={{
               color: "#00D47f",
@@ -156,7 +156,7 @@ class Sidebar extends React.Component {
           <NavLink
             onClick={() => this.closeMenu()}
             className={classes.linkItem}
-            to={process.env.PUBLIC_URL + "/discover/top_rated"}
+            to="/discover/top_rated"
             exact
             activeStyle={{
               color: "#00D47f",
@@ -170,7 +170,7 @@ class Sidebar extends React.Component {
           <NavLink
             onClick={() => this.closeMenu()}
             className={classes.linkItem}
-            to={process.env.PUBLIC_URL + "/discover/upcoming"}
+            to="/discover/upcoming"
             exact
             activeStyle={{
               color: "#00D47f",
