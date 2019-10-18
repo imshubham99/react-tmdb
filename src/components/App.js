@@ -10,7 +10,7 @@ import Movie from "./Movie/Movie";
 import Navigation from "./Navigation/Navigation";
 import Search from "./Search";
 import classes from "./App.module.css";
-import MovieList from './Movie/MovieList';
+import MovieList from "./Movie/MovieList";
 // import poweredby from "../images/poweredby.png";
 class App extends React.Component {
   componentDidMount() {
@@ -30,7 +30,7 @@ class App extends React.Component {
           <Route exact path="/movie/:movieId" component={Movie} />
           <Route
             exact
-            path="/"
+            path="/react-tmdb"
             render={() => <Redirect from={"/"} to={"/discover/popular"} />}
           />
           <Route
@@ -38,7 +38,7 @@ class App extends React.Component {
             path="/search/:searchTerm"
             render={props => <Search {...props} />}
           />
-          <Route exact path="/" component={MovieList} />
+          {/* <Route exact path="/" component={MovieList} /> */}
         </div>
       </Router>
     );
