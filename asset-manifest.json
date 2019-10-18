@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-tmdb/static/css/main.19ca59fd.chunk.css",
-    "main.js": "/react-tmdb/static/js/main.6d9f65b9.chunk.js",
-    "main.js.map": "/react-tmdb/static/js/main.6d9f65b9.chunk.js.map",
+    "main.js": "/react-tmdb/static/js/main.764fe0c4.chunk.js",
+    "main.js.map": "/react-tmdb/static/js/main.764fe0c4.chunk.js.map",
     "runtime~main.js": "/react-tmdb/static/js/runtime~main.9614d2f4.js",
     "runtime~main.js.map": "/react-tmdb/static/js/runtime~main.9614d2f4.js.map",
     "static/css/2.1b431f39.chunk.css": "/react-tmdb/static/css/2.1b431f39.chunk.css",
     "static/js/2.7f909403.chunk.js": "/react-tmdb/static/js/2.7f909403.chunk.js",
     "static/js/2.7f909403.chunk.js.map": "/react-tmdb/static/js/2.7f909403.chunk.js.map",
     "index.html": "/react-tmdb/index.html",
-    "precache-manifest.161d1c06022bd45b14ff2491b89c6057.js": "/react-tmdb/precache-manifest.161d1c06022bd45b14ff2491b89c6057.js",
+    "precache-manifest.e0ed68520304ce29828aa97f81c9e93f.js": "/react-tmdb/precache-manifest.e0ed68520304ce29828aa97f81c9e93f.js",
     "service-worker.js": "/react-tmdb/service-worker.js",
     "static/css/2.1b431f39.chunk.css.map": "/react-tmdb/static/css/2.1b431f39.chunk.css.map",
     "static/css/main.19ca59fd.chunk.css.map": "/react-tmdb/static/css/main.19ca59fd.chunk.css.map",
