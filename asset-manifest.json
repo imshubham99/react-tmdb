@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tmdb-react/static/css/main.19ca59fd.chunk.css",
-    "main.js": "/tmdb-react/static/js/main.2b98f9b1.chunk.js",
-    "main.js.map": "/tmdb-react/static/js/main.2b98f9b1.chunk.js.map",
-    "runtime~main.js": "/tmdb-react/static/js/runtime~main.c96e6377.js",
-    "runtime~main.js.map": "/tmdb-react/static/js/runtime~main.c96e6377.js.map",
-    "static/css/2.52effe29.chunk.css": "/tmdb-react/static/css/2.52effe29.chunk.css",
-    "static/js/2.7f909403.chunk.js": "/tmdb-react/static/js/2.7f909403.chunk.js",
-    "static/js/2.7f909403.chunk.js.map": "/tmdb-react/static/js/2.7f909403.chunk.js.map",
-    "index.html": "/tmdb-react/index.html",
-    "precache-manifest.76e16b94c682f2caf003476dc7e78111.js": "/tmdb-react/precache-manifest.76e16b94c682f2caf003476dc7e78111.js",
-    "service-worker.js": "/tmdb-react/service-worker.js",
-    "static/css/2.52effe29.chunk.css.map": "/tmdb-react/static/css/2.52effe29.chunk.css.map",
-    "static/css/main.19ca59fd.chunk.css.map": "/tmdb-react/static/css/main.19ca59fd.chunk.css.map",
-    "static/media/avatar.svg": "/tmdb-react/static/media/avatar.d93e191e.svg",
-    "static/media/notFound.jpg": "/tmdb-react/static/media/notFound.a8104faf.jpg",
-    "static/media/slick-theme.css": "/tmdb-react/static/media/slick.f97e3bbf.svg"
+    "main.css": "/react-tmdb/static/css/main.19ca59fd.chunk.css",
+    "main.js": "/react-tmdb/static/js/main.2b98f9b1.chunk.js",
+    "main.js.map": "/react-tmdb/static/js/main.2b98f9b1.chunk.js.map",
+    "runtime~main.js": "/react-tmdb/static/js/runtime~main.9614d2f4.js",
+    "runtime~main.js.map": "/react-tmdb/static/js/runtime~main.9614d2f4.js.map",
+    "static/css/2.1b431f39.chunk.css": "/react-tmdb/static/css/2.1b431f39.chunk.css",
+    "static/js/2.7f909403.chunk.js": "/react-tmdb/static/js/2.7f909403.chunk.js",
+    "static/js/2.7f909403.chunk.js.map": "/react-tmdb/static/js/2.7f909403.chunk.js.map",
+    "index.html": "/react-tmdb/index.html",
+    "precache-manifest.a0f784d6942b600711a814ca70125433.js": "/react-tmdb/precache-manifest.a0f784d6942b600711a814ca70125433.js",
+    "service-worker.js": "/react-tmdb/service-worker.js",
+    "static/css/2.1b431f39.chunk.css.map": "/react-tmdb/static/css/2.1b431f39.chunk.css.map",
+    "static/css/main.19ca59fd.chunk.css.map": "/react-tmdb/static/css/main.19ca59fd.chunk.css.map",
+    "static/media/avatar.svg": "/react-tmdb/static/media/avatar.d93e191e.svg",
+    "static/media/notFound.jpg": "/react-tmdb/static/media/notFound.a8104faf.jpg",
+    "static/media/slick-theme.css": "/react-tmdb/static/media/slick.f97e3bbf.svg"
   }
 }
