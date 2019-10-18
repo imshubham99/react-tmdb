@@ -10,6 +10,7 @@ import Movie from "./Movie/Movie";
 import Navigation from "./Navigation/Navigation";
 import Search from "./Search";
 import classes from "./App.module.css";
+import MovieList from './Movie/MovieList';
 // import poweredby from "../images/poweredby.png";
 class App extends React.Component {
   componentDidMount() {
