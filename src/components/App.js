@@ -21,11 +21,7 @@ class App extends React.Component {
       <Router history={history} basename="react-tmdb">
         <div className={classes}>
           <Navigation {...this.props} />
-          <Route
-            exact
-            path={process.env.PUBLIC_URL + "/discover/:type"}
-            component={Discover}
-          />
+          <Route exact path="/discover/:type" component={Discover} />
           <Route
             exact
             path="/genres/:genreId"
