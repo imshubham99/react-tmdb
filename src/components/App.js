@@ -29,10 +29,10 @@ class App extends React.Component {
           <Route exact path="/movie/:movieId" component={Movie} />
           <Route
             exact
-            path="/"
+            path={process.env.PUBLIC_URL + "/"}
             render={() => (
               <Redirect
-                from="/"
+                from={process.env.PUBLIC_URL + "/"}
                 to="/discover/popular"
               />
             )}
