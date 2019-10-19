@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <HashRouter history={history} basename="react-tmdb">
+      <HashRouter history={history}>
         <div className={classes}>
           <Navigation {...this.props} />
           <Route exact path="/discover/:type" component={Discover} />
