@@ -93,12 +93,13 @@
 
 .movieGenres {
     display: flex;
+    flex-wrap: wrap;
     margin: 1rem 1rem;
 }
 
 .movieGenres p {
     position: relative;
-    margin: 0;
+    margin: 3px 0;
     margin-right: 5px;
     border: 1px solid #00d474;
     border-radius: 5px;

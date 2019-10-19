@@ -45,6 +45,7 @@
 
 @media (max-width: 730px) {
     .cast .slider {
+        margin-left: -8px;
         margin-bottom: 30px;
     }
 }
