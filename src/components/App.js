@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { HashRouter, Route, Redirect } from "react-router-dom";
+import { Router, Route, Redirect } from "react-router-dom";
 import { init } from "../actions";
 import history from "../history";
 
@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <HashRouter history={history}>
+      <Router history={history} basename="react-tmdb">
         <div className={classes}>
           <Navigation {...this.props} />
           <Route exact path="/discover/:type" component={Discover} />
@@ -33,7 +33,7 @@ class App extends React.Component {
             render={() => (
               <Redirect
                 from={process.env.PUBLIC_URL + "/"}
-                to={process.env.PUBLIC_URL + "/discover/popular"}
+                to="/discover/popular"
               />
             )}
           />
@@ -43,7 +43,7 @@ class App extends React.Component {
             render={props => <Search {...props} />}
           />
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
