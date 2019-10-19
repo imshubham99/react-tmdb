@@ -33,7 +33,7 @@ class App extends React.Component {
             render={() => (
               <Redirect
                 from={process.env.PUBLIC_URL + "/"}
-                to="/discover/popular"
+                to={process.env.PUBLIC_URL + "/discover/popular"}
               />
             )}
           />
