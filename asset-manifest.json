@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-tmdb/static/css/main.19ca59fd.chunk.css",
+    "main.css": "/react-tmdb/static/css/main.2bfef7de.chunk.css",
     "main.js": "/react-tmdb/static/js/main.bda8dd39.chunk.js",
     "main.js.map": "/react-tmdb/static/js/main.bda8dd39.chunk.js.map",
     "runtime~main.js": "/react-tmdb/static/js/runtime~main.9614d2f4.js",
@@ -9,10 +9,10 @@
     "static/js/2.7f909403.chunk.js": "/react-tmdb/static/js/2.7f909403.chunk.js",
     "static/js/2.7f909403.chunk.js.map": "/react-tmdb/static/js/2.7f909403.chunk.js.map",
     "index.html": "/react-tmdb/index.html",
-    "precache-manifest.483bc57baba607dd44108456cd957f85.js": "/react-tmdb/precache-manifest.483bc57baba607dd44108456cd957f85.js",
+    "precache-manifest.083edff7052e9702fd8e489191afcf5b.js": "/react-tmdb/precache-manifest.083edff7052e9702fd8e489191afcf5b.js",
     "service-worker.js": "/react-tmdb/service-worker.js",
     "static/css/2.1b431f39.chunk.css.map": "/react-tmdb/static/css/2.1b431f39.chunk.css.map",
-    "static/css/main.19ca59fd.chunk.css.map": "/react-tmdb/static/css/main.19ca59fd.chunk.css.map",
+    "static/css/main.2bfef7de.chunk.css.map": "/react-tmdb/static/css/main.2bfef7de.chunk.css.map",
     "static/media/avatar.svg": "/react-tmdb/static/media/avatar.d93e191e.svg",
     "static/media/notFound.jpg": "/react-tmdb/static/media/notFound.a8104faf.jpg",
     "static/media/slick-theme.css": "/react-tmdb/static/media/slick.f97e3bbf.svg"
