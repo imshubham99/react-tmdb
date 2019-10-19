@@ -43,7 +43,7 @@ class App extends React.Component {
             path="/search/:searchTerm"
             render={props => <Search {...props} />}
           />
-          {/* <Route exact path="/" component={MovieList} /> */}
+          <Route  component={MovieList} />
         </div>
       </Router>
     );
