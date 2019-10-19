@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Router, Route, Redirect } from "react-router-dom";
+import { HashRouter, Route, Redirect } from "react-router-dom";
 import { init } from "../actions";
 import history from "../history";
 
@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router history={history} basename="react-tmdb">
+      <HashRouter history={history} basename="react-tmdb">
         <div className={classes}>
           <Navigation {...this.props} />
           <Route exact path="/discover/:type" component={Discover} />
@@ -43,7 +43,7 @@ class App extends React.Component {
             render={props => <Search {...props} />}
           />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
