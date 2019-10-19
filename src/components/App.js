@@ -18,10 +18,14 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router history={history} basename='react-tmdb'>
+      <Router history={history} basename="react-tmdb">
         <div className={classes}>
           <Navigation {...this.props} />
-          <Route exact path="/discover/:type" component={Discover} />
+          <Route
+            exact
+            path={process.env.PUBLIC_URL + "/discover/:type"}
+            component={Discover}
+          />
           <Route
             exact
             path="/genres/:genreId"
@@ -38,12 +42,22 @@ class App extends React.Component {
               />
             )}
           />
+          {/* <Route
+            exact
+            path={process.env.PUBLIC_URL + "/discover/"}
+            render={() => (
+              <Redirect
+                from={process.env.PUBLIC_URL + "/"}
+                to="/discover/popular"
+              />
+            )}
+          /> */}
           <Route
             exact
             path="/search/:searchTerm"
             render={props => <Search {...props} />}
           />
-          <Route  component={MovieList} />
+          <Route component={MovieList} />
         </div>
       </Router>
     );
