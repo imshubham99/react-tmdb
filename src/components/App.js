@@ -10,8 +10,7 @@ import Movie from "./Movie/Movie";
 import Navigation from "./Navigation/Navigation";
 import Search from "./Search";
 import classes from "./App.module.css";
-import MovieList from "./Movie/MovieList";
-// import poweredby from "../images/poweredby.png";
+
 class App extends React.Component {
   componentDidMount() {
     this.props.init();
@@ -38,22 +37,11 @@ class App extends React.Component {
               />
             )}
           />
-          {/* <Route
-            exact
-            path={process.env.PUBLIC_URL + "/discover/"}
-            render={() => (
-              <Redirect
-                from={process.env.PUBLIC_URL + "/"}
-                to="/discover/popular"
-              />
-            )}
-          /> */}
           <Route
             exact
             path="/search/:searchTerm"
             render={props => <Search {...props} />}
           />
-          <Route component={MovieList} />
         </div>
       </Router>
     );
