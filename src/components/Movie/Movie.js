@@ -74,7 +74,7 @@ class Movie extends React.Component {
                 </a>
               </div>
             )}
-            <div className={classes.goHome} onClick={() => history.push("/")}>
+            <div className={classes.goHome} onClick={history.goBack}>
               <a>
                 <i
                   class="fa fa-arrow-left"
